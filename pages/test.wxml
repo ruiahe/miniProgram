@@ -1,0 +1,61 @@
+<!--pages/test.wxml-->
+<view class='userInfoName'>
+  <text>姓名：</text>
+  {{userInfo.name}}
+</view>
+<view class='userInfoAge'>
+  <text>年龄</text>
+  {{userInfo.age}}
+</view>
+<view class='title'>
+  <text>以下部分为可滚动区域</text>
+</view>
+<scroll-view class='scrollView' scroll-y scroll-top='50' scroll-into-view='six' scroll-with-animation='true' bindscrolltoupper='upper'>
+  <view>111-1</view>
+  <view>222</view>
+  <view>333</view>
+  <view>444</view>
+  <view>555</view>
+  <view id='six'>666</view>
+  <view>777</view>
+  <view>888</view>
+  <view>999</view>
+  <view>000</view>
+  <view>111-2</view>
+  <view>222</view>
+  <view>333</view>
+  <view>444</view>
+  <view>555</view>
+  <view>666</view>
+  <view>777</view>
+  <view>888</view>
+  <view>999</view>
+  <view>000</view>
+  <view>111-3</view>
+  <view>222</view>
+  <view>333</view>
+  <view>444</view>
+  <view>555</view>
+  <view>666</view>
+  <view>777</view>
+  <view>888</view>
+  <view>999</view>
+  <view>000</view>
+  <view>111-4</view>
+  <view>222</view>
+  <view>333</view>
+  <view>444</view>
+  <view>555</view>
+  <view>666</view>
+  <view>777</view>
+  <view>888</view>
+  <view>999</view>
+  <view>000</view>
+</scroll-view>
+
+<swiper class="swiper" autoplay indicator-dots circular indicator-color='#A4D3EE' indicator-active-color='#4876FF' current='1' interval='2000'>
+  <swiper-item wx:for='{{imgs}}' wx:key='{{index}}'>
+    <image src='{{item}}'></image>
+  </swiper-item>
+</swiper>
+<view class='userInfoName'></view>

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor":"#FFEC8B",
+    "backgroundColorTop":"#FFA500",
+    "backgroundColorBottom":"#F0FFF0",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":50
+  },
+  "sitemapLocation": "sitemap.json"
+}

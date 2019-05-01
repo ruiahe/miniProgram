@@ -1,0 +1,11 @@
+{
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "backgroundColorTop": "#87CEEB",
+  "backgroundColorBottom": "#8968CD",
+  "navigationBarBackgroundColor": "lightblue",
+  "navigationBarTitleText": "测试页",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50
+}
